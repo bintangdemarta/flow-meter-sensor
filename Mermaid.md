@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     subgraph Hardware
         ESP32
@@ -6,9 +7,9 @@ flowchart TD
     end
 
     subgraph Software
-        FirmwareESP32
+        FirmwareESP32[ESP32 Firmware]
         ServerPHP[Server PHP]
-        DatabaseMySQL
+        DatabaseMySQL[Database MySQL]
         WebsiteHTMLPHP[Website HTML/PHP]
     end
 
